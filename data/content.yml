@@ -1,0 +1,80 @@
+########################## hero area ##########################
+hero:
+  title: "Hi, I'm Anjali"
+
+  # animated text loop
+  occupations:
+    - 'BSEE Graduate'
+    - 'Artist'
+    - 'Explorer'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile.jpg'
+  title: 'THIS IS ME'
+  content: Hi, here's a little bit about me. I recently graduated from the University of Central Florida with a bachelors degree in Electrical Engineering and minors in Mathematics and Art Studio. I am currently looking to start the next chapter of my life by applying for jobs! Take a minute to explore this site to learn more about my professional and personal life. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: 'images/anjali-resume.pdf'
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Engineering Intern
+      company: Capacitech Energy
+      duration: 'September 2021 - December 2021'
+      content: While working at Capacitech Energy I was able to improve my MATLAB/Simulink skills and learned how to write impactful articles and technical papers showcasing simulation results.
+
+    - name: Undergraduate Research Assistant
+      company: University of Central Florida
+      duration: 'January 2019 - May 2019'
+      content: How do researchers come up with the questions they are working on? How do they decide the best method to go about solving the problem and answering the question? In the Undergraduate Research Experience program I learned how to develop my own research problem.
+
+    - name: Team Captain
+      company: FIRST Lego League, FIRST Robotics Competition
+      duration: '2014-2017'
+      content: Starting in 2014 I participated in various levels of robotics competitions through FIRST.
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'C/C++'
+      percentage: '95%'
+
+    - name: 'PCB Design'
+      percentage: '85%'
+
+    - name: 'Computer Vision'
+      percentage: '92%'
+
+    - name: 'Fast Learner'
+      percentage: '100%'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY PROJECTS'
+  portfolio_list:
+    - name: Radio Controlled Rover
+      image: 'images/portfolio/rover.jpg'
+      url: '/posts/rover-project'
+      description: Aerojet Rocketdyne Coleman Aerospace - the project sponsor - chose to fund this project idea with the intention of challenging students with an educational experience that they will encounter in the real world. The project requirements were developed by the FAR rocket competition owners, and Aerojet Rocketdyne is funding the project. The project requires the University of Central Florida colleges of MAE and EECS to make a rocket and payloads for the competition respectively. The payload is intended to serve as a reconnaissance vehicle for the landing location. There were multiple options of payload for the team to choose from, but the remotely controlled radio rover was chosen with motivation stemming from the interest in implementing wireless video and communication with the rover and the controller, as well as the interest of having control over the rover movement compared to the autonomous option. The team also decided the RC rover was the most realistic fit and application for the team's division of skills in robotics, mechanics, electrical engineering, and programming.
+
+
+    - name: Real Time Finger Detection
+      image: 'images/portfolio/hand.JPG'
+      url: '/posts/finger-detection-project'
+      description: In this software project we use image processing techniques on a single area of a live video feed to identify the number of fingers on display. The main image processing technique used is identifying contours. A contour is created by joining all the continuous points of an image that have the same color. Contours can be used for various image processing programs like shape analysis, object detection or recognition..Image contouring is an important tool with uses in any field. It is used in medical research to identify important information, such as organs or tumors in MRI images, CT scans, or cardiac images. Object detection includes identifying persons. This could be implemented in public spaces during this pandemic to count the number of people in a shop. Object detection and tracking is currently used in military technology. Unmanned aircrafts prove to be a threat to military bases. Military security uses this form of image processing to detect unmanned aircrafts and track their location. Cameras placed around the perimeter of a base that can apply image processing will be able to give ample warning of what the program considers a threat.
